@@ -1,0 +1,130 @@
+body {
+  /* background-color: #2f3d4a; */
+}
+
+h1 {
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+  padding: .5em;
+  margin-bottom: 2.5em;
+  color: black;
+}
+
+h2 {
+  font-family: 'Futura', georgia, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: .5em;
+  padding: .5em;
+  background-color: #e29f5f;
+  color: white;
+}
+
+.navBar {
+  font-family: 'Futura', georgia, sans-serif;
+  /* font-weight: bold; */
+  font-size: 1em;
+  text-align: left;
+  margin-top: 1em;
+  padding: 1em;
+  color: white;
+  /* display: block; */
+  margin-right: 1em;
+  background-color: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-decoration-style: none;
+}
+
+.navBar a:hover {
+  background: rgb(176, 175, 173);
+  color: white;
+  padding: 1em;
+}
+
+p{
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: .8em;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: 1em;
+  color: black;
+  margin: .8em;
+  padding: .8em;
+  border: solid;
+  border-width: thin;
+}
+
+.Bodytxt {
+  text-align: center;
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: .8em;
+  color: black;
+  margin: .8em;
+  list-style-type: circle;
+  list-style-position: inside;
+  /* padding: .8em; */
+}
+
+.heading {
+  background-color: #84a2e6;
+}
+
+.teamMBR {
+  background-color: rgb(212, 212, 212);
+  font-family: 'Futura', georgia, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  padding: 1em;
+  border: solid;
+  border-color: grey;
+  border-width: thin;
+}
+
+.teamInfo {
+  /* background-color: white; */
+  list-style: none;
+  margin: 1em 0;
+  text-align: left;
+  display: grid;
+  row-gap: .5em;
+  column-gap: .5em;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+
+.logo{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  /* margin-bottom: 2em; */
+  /* background-color: #455A64: */
+
+}
+
+.icon {
+  width: 18%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5em;
+}
+
+.bckTop {
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: 1em;
+  display: block;
+  margin-right: 1em;
+  width: 100%;
+  padding: 1em;
+}
