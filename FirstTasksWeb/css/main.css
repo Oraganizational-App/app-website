@@ -15,9 +15,9 @@ h1 {
 h2 {
   font-family: 'Futura', georgia, sans-serif;
   /* font-weight: bold; */
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
   padding: .5em;
   background-color: #e29f5f;
   color: white;
@@ -54,7 +54,7 @@ h5 {
   /* font-style: italic; */
   text-align: center;
   padding: .5em;
-  margin-bottom: 2.5em;
+  /* margin-bottom: 2.5em; */
   color: black;
 }
 
@@ -62,11 +62,11 @@ h5 {
 a {
   text-decoration: none;
   color: white;
-  width: 100%;
+  width: 80%;
   /* background-color: #3a4c5d; */
   /* border: thin solid #2f3d4a; */
-  padding: 1em;
-  margin: 1em;
+  padding: .5em;
+  /* margin: 1em; */
 }
 
 p{
@@ -95,7 +95,7 @@ hr {
   padding: 1em;
   /* color: black; */
   /* display: block; */
-  margin-right: 1em;
+  /* margin-right: 10em; */
   background-color: #2f3d4a;
   position: absolute;
   top: 0;
@@ -103,6 +103,27 @@ hr {
   text-decoration: inherit;
   float: right;
 
+}
+/*
+.navTab {
+  margin-right: 2em;
+  margin-left: 2em;
+} */
+
+.dlAPP {
+  border: thin solid;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: rgb(223, 79, 75);
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2em;
+  display: block;
+  position: inherit;
+  text-align: center;
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: .8em;
 
 }
 
@@ -111,7 +132,6 @@ hr {
   color: white;
   padding: 1em;
   text-decoration: none;
-
 }
 
 .demoVid {
@@ -140,6 +160,10 @@ hr {
   background-color: #84a2e6;
 }
 
+.heading.main {
+  background-color: #b06b86;
+}
+
 
 .teamMBR {
   background-color: rgb(212, 212, 212);
@@ -153,6 +177,8 @@ hr {
   border-width: thin;
 }
 
+/* grid on about the team page */
+
 .teamInfo {
   /* background-color: white; */
   list-style: none;
@@ -165,18 +191,38 @@ hr {
   padding: 1em;
 }
 
+
 /* Screens on main page */
 
 .appScrns {
   /* background-color: white; */
   list-style: none;
-  margin: 1em 0;
+  margin: 2.6em 0;
   text-align: left;
   display: grid;
   row-gap: .5em;
   column-gap: .5em;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: .5em;
+  width: 100%;
+}
+
+/* app features on main page */
+
+.appFeatures {
+  /* background-color: white; */
+  list-style: none;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  display: grid;
+  margin-right: auto;
+  margin-left: auto;
+  row-gap: .5em;
+  column-gap: 2em;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em;
+  width: 85%;
 }
 
 
@@ -206,9 +252,9 @@ hr {
 /* Company logo on main page (top left corner) */
 
 .cmpyLogo {
-  width: 5%;
+  width: 4em;
   margin-top: .5em;
-  margin-left: 1em;
+  margin-left: 0;
   z-index: 1;
   position: absolute;
   top: 0;
