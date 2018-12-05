@@ -1,5 +1,5 @@
 body {
-  /* background-color: #2f3d4a; */
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -14,42 +14,15 @@ h1 {
 
 h2 {
   font-family: 'Futura', georgia, sans-serif;
-  font-weight: bold;
-  font-size: 1.2em;
+  /* font-weight: bold; */
+  font-size: 2em;
   text-align: center;
-  margin-top: .5em;
+  margin-top: 3em;
   padding: .5em;
   background-color: #e29f5f;
   color: white;
 }
 
-.navBar {
-  font-family: 'Futura', georgia, sans-serif;
-  /* font-weight: bold; */
-  font-size: 1em;
-  text-align: left;
-  margin-top: 1em;
-  padding: 1em;
-  color: white;
-  /* display: block; */
-  margin-right: 1em;
-  background-color: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-decoration-style: none;
-}
-
-.navBar a:hover {
-  background: rgb(176, 175, 173);
-  color: white;
-  padding: 1em;
-}
-
-p{
-  font-family: 'Futura', georgia, sans-serif;
-  font-size: .8em;
-}
 
 h3 {
   text-align: center;
@@ -58,9 +31,99 @@ h3 {
   color: black;
   margin: .8em;
   padding: .8em;
-  border: solid;
-  border-width: thin;
+  /* border: solid;
+  border-width: thin; */
 }
+
+/* Titles for each section on the OUR STORY page */
+h4 {
+  text-align: center;
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: 1.5em;
+  color: #2f3d4a;
+  margin: .8em;
+  /* padding: .8em; */
+  /* border: solid;
+  border-width: thin; */
+}
+
+/* Body text in the OUR STORY page */
+h5 {
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: .8em;
+  /* font-style: italic; */
+  text-align: center;
+  padding: .5em;
+  margin-bottom: 2.5em;
+  color: black;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  /* background-color: #3a4c5d; */
+  /* border: thin solid #2f3d4a; */
+  padding: 1em;
+  margin: 1em;
+}
+
+p{
+  font-family: 'Futura', georgia, sans-serif;
+  font-size: 1em;
+}
+
+
+/* lines between about categories */
+
+hr {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+
+.navBar {
+  font-family: 'Futura', georgia, sans-serif;
+  /* font-weight: bold; */
+  font-size: 1em;
+  text-align: center;
+  /* margin-top: 1em; */
+  padding: 1em;
+  /* color: black; */
+  /* display: block; */
+  margin-right: 1em;
+  background-color: #2f3d4a;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-decoration: inherit;
+  float: right;
+
+
+}
+
+.navBar a:hover {
+  background: rgb(176, 175, 173);
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+
+}
+
+.demoVid {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 3em;
+
+}
+
 
 .Bodytxt {
   text-align: center;
@@ -76,6 +139,7 @@ h3 {
 .heading {
   background-color: #84a2e6;
 }
+
 
 .teamMBR {
   background-color: rgb(212, 212, 212);
@@ -101,15 +165,63 @@ h3 {
   padding: 1em;
 }
 
+/* Screens on main page */
+
+.appScrns {
+  /* background-color: white; */
+  list-style: none;
+  margin: 1em 0;
+  text-align: left;
+  display: grid;
+  row-gap: .5em;
+  column-gap: .5em;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: .5em;
+}
+
+
+/* Firsts tasks logo on main page */
 .logo{
   width: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4em;
+  margin-top: 5em;
   /* margin-bottom: 2em; */
-  /* background-color: #455A64: */
+  background-color: #2f3d4a:
 
+}
+
+/* First tasks logo on about page */
+
+.firstTsk{
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 4.5em; */
+  /* margin-bottom: 2em; */
+  background-color: #2f3d4a:
+}
+/* Company logo on main page (top left corner) */
+
+.cmpyLogo {
+  width: 5%;
+  margin-top: .5em;
+  margin-left: 1em;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  /* background-color: #2f3d4a; */
+}
+
+/* Company logo on about page */
+.cmpyLogo2 {
+  width: 15%;
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon {
@@ -124,7 +236,10 @@ h3 {
   font-family: 'Futura', georgia, sans-serif;
   font-size: 1em;
   display: block;
-  margin-right: 1em;
+  /* margin-right: 1em; */
   width: 100%;
   padding: 1em;
+  background-color: #2f3d4a;
+  margin-bottom: 0;
+
 }
